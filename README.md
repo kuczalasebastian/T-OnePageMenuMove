@@ -1,2 +1,3 @@
 # LearningNewPage
 Learning...
+Some new ideas for page. Learning new items, some more JavaScript.
