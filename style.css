@@ -3,13 +3,31 @@ body {
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
 }
+  
+header {
+    height: 60px;
+  }
+  
 #navbar {
-    overflow: hidden;
     background-color: #333;
-}
-
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
 #navbar a {
-    float: left;
+  float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -28,16 +46,13 @@ body {
     color: white;
 }
 
-.content {
+  
+#content {
+    margin-top: 60px; /* Zapobiega zasłanianiu zawartości przez przesuwające się menu */
     padding: 16px;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.sticky + .content {
-    padding-top: 60px;
-}
+  }
+  
+section {
+    height: 600px;
+    padding: 20px;
+  }
