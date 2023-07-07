@@ -1,3 +1,3 @@
-# LearningNewPage
-Learning...
-Some new ideas for page. Learning new items, some more JavaScript.
+# SimpleTemplates
+Templates...
+Some new templates ideas for page. Learning new items.
